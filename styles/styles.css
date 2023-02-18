@@ -1,5 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Mukta:wght@300&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,6 +15,7 @@ body {
 header {
 	position: sticky;
 	top: 0;
+	font-family: 'Mukta', sans-serif;
 }
 
 .container {
@@ -21,20 +26,13 @@ header {
 }
 
 .navbar {
+	width: 100%; 
 	position: absolute;
-	right: 0%;
 	display: flex;
 	height: 80px;
 	align-items: center;
-	justify-content: end;
+	justify-content: center;
 }
-/* .navbar {
-	position: absolute;
-	height: auto;
-	max-width: 100%;
-	top: 50%;
-	right: 0px;
-} */
 
 .navbar a {
 	text-decoration: none;
@@ -43,8 +41,8 @@ header {
 	padding: 10px;
 	margin: 40px;
 	border-radius: 13px;
-	text-align: center;
-
+	/* background-color: #d90429; */
+	z-index: 1000;
 }
 
 .navbar a:hover {
@@ -67,30 +65,32 @@ header .logo {
 	justify-content: center;
 	position: absolute;
 	/* background-color: aqua; */
-	z-index: 0;
+	z-index: 1;
 }
 
-header .logo i {
-	color: #D90429;
+header .logo img {
+	height: 70px;
+}
+
+/* header .logo i {
+	color: #d90429;
 	font-size: 50px;
 	transform: rotate(45deg);
-}
+} */
 
-header .redesSociales {
-	/* background-color: #edf2f4; */
+header .socialNetworks {
 	height: 80px;
-	width: 300px;
+	width: 98%;
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: end;
+	/* background-color: yellowgreen; */
 }
 
-header .redesSociales svg {
+header .socialNetworks svg {
 	margin: 20px;
 	height: 30px;
 }
 
-p { 
-	height: 1000px;
-}
+
