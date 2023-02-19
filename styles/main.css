@@ -62,13 +62,14 @@ h1#title {
 }
 
 div.services p.descriptionServices {
-	padding: 20px;
+	padding: 10px;
+	margin: 10px;
+	height: 100px;
 	font-family: "Mukta", sans-serif;
 	font-size: medium;
 }
 
 div.services p.prices {
-	padding: 30px;
 	font-family: "Mukta", sans-serif;
 	font-size: large;
 	font-weight: 600;
