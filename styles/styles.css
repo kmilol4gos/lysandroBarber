@@ -18,6 +18,7 @@ header {
 	position: sticky;
 	top: 0;
 	font-family: 'Mukta', sans-serif;
+	z-index: 10000;
 }
 
 .container {
