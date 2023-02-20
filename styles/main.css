@@ -90,7 +90,7 @@ div.services p.prices {
 	text-transform: uppercase;
 }
 
-section.containerServicios a#booking {
+section.containerServicios a.booking {
 	text-decoration: none;
 	border: 1px solid #8d99ae;
 	border-radius: 13px;
@@ -100,7 +100,7 @@ section.containerServicios a#booking {
 	padding: 10px;
 }
 
-section.containerServicios a#booking:hover {
+section.containerServicios a.booking:hover {
 	border: 1px solid #2b2d42;
 	background-color: #2b2d42;
 	color: #edf2f4;
