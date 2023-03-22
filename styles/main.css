@@ -14,8 +14,8 @@
 h1#title {
 	font-family: "Gentium Book Plus", serif;
 	font-size: 40px;
-	color: #2b2d42;
-	text-shadow: 1px 1px 1px #edf2f4;
+	color: #161a1d;
+	text-shadow: 1px 1px 1px #f5f3f4;
 }
 
 .containerTitle h1#title {
@@ -26,17 +26,11 @@ h1#title {
 	justify-content: center;
 }
 
-.pictures {
-	background-color: #2b2d42;
-	height: 300px;
-	max-width: 100%;
-	color: white;
-}
 
 .containerServicios {
 	text-align: center;
 	height: 470px;
-	background-color: #edf2f4;
+	background-color: #f5f3f4;
 }
 
 #container {
@@ -50,10 +44,10 @@ h1#title {
 	font-size: 23px;
 	letter-spacing: 1px;
 	padding: 15px;
-	border: 1px solid #8d99ae;
+	border: 1px solid #161a1d;
 	border-radius: 15px;
-	background-color: #8d99ae;
-	color: #edf2f4;
+	background-color: #161a1d;
+	color: #f5f3f4;
 }
 
 .containerServicios img {
@@ -73,10 +67,19 @@ div.services p.descriptionServices {
 	font-size: medium;
 }
 
-div.services p.prices {
+div.services a.prices {
+	font-family: "Mukta", sans-serif;
+	text-decoration: none;
+	font-size: large;
+	font-weight: 600;
+	color: red;
+}
+
+div.services a.sale {
 	font-family: "Mukta", sans-serif;
 	font-size: large;
 	font-weight: 600;
+	color: red;
 }
 
 .containerBooking {
@@ -86,22 +89,23 @@ div.services p.prices {
 	align-items: center;
 	max-width: 100%;
 	height: 120px;
-	font-family: 'Mukta', sans-serif;
+	font-family: "Mukta", sans-serif;
 	text-transform: uppercase;
 }
 
 section.containerServicios a.booking {
 	text-decoration: none;
-	border: 1px solid #8d99ae;
+	border: 1px solid #161a1d;
 	border-radius: 13px;
-	background-color: #8d99ae;
-	color: #edf2f4;
+	background-color: #161a1d;
+	color: #f5f3f4;
 	margin: 20px;
 	padding: 10px;
 }
 
 section.containerServicios a.booking:hover {
-	border: 1px solid #2b2d42;
-	background-color: #2b2d42;
-	color: #edf2f4;
+	border: 1px solid red;
+	background-color: red;
+	color: #f5f3f4;
 }
+

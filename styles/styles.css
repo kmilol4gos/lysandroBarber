@@ -11,7 +11,7 @@
 	padding: 0;
 }
 body {
-	background-color: #8d99ae;
+	background-color: #b08968;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 .container {
 	height: 80px;
 	max-width: 100%;
-	background: #2b2d42;
+	background: #0B090A;
 	position: relative;
 }
 
@@ -39,8 +39,8 @@ header {
 
 .navbar a {
 	text-decoration: none;
-	color: #edf2f4;
-	border: solid 1px #2b2d42;
+	color: #F5F3F4;
+	border: solid 1px #0B090A;
 	padding: 10px;
 	margin: 40px;
 	border-radius: 13px;
@@ -49,15 +49,15 @@ header {
 }
 
 .navbar a:hover {
-	background-color: #edf2f4;
-	color: #2b2d42;
-	border: solid 1px #edf2f4;
+	background-color: #F5F3F4;
+	color: #161A1D;
+	border: solid 1px #F5F3F4;
 }
 
 #selection {
-	border: solid 1px #edf2f4;
-	background-color: #edf2f4;
-	color: #2b2d42;
+	border: solid 1px #F5F3F4;
+	background-color: #F5F3F4;
+	color: #161A1D;
 }
 
 header .logo {
